@@ -97,6 +97,11 @@ body {
     background-color: #3498db;  
   }
   
+  .horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   
 
 /* Móvil (máximo 600px): */
