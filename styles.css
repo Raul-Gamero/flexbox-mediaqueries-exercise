@@ -103,16 +103,13 @@ body {
     justify-content: space-between;
   }
   
-
 /* Móvil (máximo 600px): */
 @media (max-width: 600px) {
-    
     main {
       display: block;
       width: 100%;
     }
     
-   
     .services, .testimonials {
       display: flex;
       flex-direction: column;
@@ -121,8 +118,7 @@ body {
   }
   
   /* Tablet (600px a 1024px): */
-  @media (min-width: 600px) and (max-width: 1024px) {
-    
+  @media (min-width: 600px) and (max-width: 1024px) { 
     .sections {
       display: flex;
       flex-direction: column-reverse;
@@ -131,7 +127,6 @@ body {
   
   /* Escritorio (más de 1024px): */
   @media (min-width: 1024px) {
-    
     .sidebar, .main-content, .extra-info  {
       display: flex;
       flex-direction: row;
